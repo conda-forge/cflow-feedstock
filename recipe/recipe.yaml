@@ -1,5 +1,5 @@
 context:
-  version: 1.7
+  version: "1.8"
 
 package:
   name: cflow
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://ftp.gnu.org/gnu/cflow/cflow-${{ version }}.tar.bz2
-  sha256: d01146caf9001e266133417c2a8258a64b5fc16fcb082a14f6528204d0c97086
+  sha256: 8321627b55b6c7877f6a43fcc6f9f846a94b1476a081a035465f7a78d3499ab8
 
 build:
   number: 0
