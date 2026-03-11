@@ -6,7 +6,7 @@ autoreconf --force --verbose --install
 ./configure --disable-silent-rules \
     --disable-dependency-tracking \
     --prefix=${PREFIX}
-if [[ ${build_platform} != ${target_platform} ]]; then
+if [[ ${build_platform} == ${target_platform} ]]; then
 make check
 fi
 make install
